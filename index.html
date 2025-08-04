@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple, accessible, and SEO-friendly web page example using HTML5 semantic tags.">
+    <title>Rhoda Muringo | Accessible & SEO-Friendly Web Page</title>
+  </head>
+  <body>
+    <header role="banner">
+      <h1>Welcome to My Accessible & SEO-Friendly Web Page</h1>
+      <nav role="navigation" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main role="main" id="home">
+      <section aria-labelledby="about-heading" id="about">
+        <h2 id="about-heading">About Me & This Page</h2>
+        <p>
+          Hello! I'm Rhoda Muringo, a beginner web developer passionate about creating websites that are easy to use and accessible to everyone. This page is built with HTML5 semantic tags, following best practices for accessibility and SEO. My goal is to make content clear for both people and search engines.
+        </p>
+      </section>
+      <section aria-labelledby="features-heading">
+        <h2 id="features-heading">What Makes This Page Great?</h2>
+        <ul>
+          <li>Uses semantic HTML5 tags for a clear and meaningful structure</li>
+          <li>Includes accessible landmarks and ARIA attributes to help everyone navigate</li>
+          <li>Organized headings for better readability and screen reader support</li>
+          <li>Content is written to be friendly for both users and search engines</li>
+        </ul>
+      </section>
+      <section aria-labelledby="contact-heading" id="contact">
+        <h2 id="contact-heading">Get in Touch</h2>
+        <address>
+          Email: <a href="mailto:muringonjeri@gmail.com">muringonjeri@gmail.com</a><br>
+          Location: Nairobi, Kenya
+        </address>
+      </section>
+    </main>
+    <footer role="contentinfo">
+      <p>&copy; 2025 Rhoda Muringo. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
